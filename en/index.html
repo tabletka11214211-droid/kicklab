@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>KICKLAB · Sneaker Store — Neue Drops jede Woche</title>
-<meta name="description" content="KICKLAB — dein Sneaker Store. Running, Lifestyle, Basketball & Skate. Mit Warenkorb, Wunschliste und Kundenkonto." />
+<title>KICKLAB · Sneaker Store — New Drops Every Week</title>
+<meta name="description" content="KICKLAB — your sneaker store. Running, Lifestyle, Basketball & Skate. With cart, wishlist and customer account." />
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -250,29 +250,29 @@ footer{background:var(--ink);color:var(--paper);padding:56px 0 28px}
 <aside class="sidebar" id="sidebar">
   <div class="sb-logo">KICK<span class="dot"></span>LAB</div>
   <ul class="sb-nav" id="sbNav">
-    <li><button class="active" data-cat="all">Alle Drops</button></li>
+    <li><button class="active" data-cat="all">All Drops</button></li>
     <li><button data-cat="Running">Running</button></li>
     <li><button data-cat="Lifestyle">Lifestyle</button></li>
     <li><button data-cat="Basketball">Basketball</button></li>
     <li><button data-cat="Skate">Skate</button></li>
   </ul>
   <div class="sb-actions">
-    <button class="sb-act" onclick="openDrawer('wishDrawer')">Wunschliste <span class="badge" id="wishBadge">0</span></button>
-    <button class="sb-act" onclick="openAccount()">Konto <span class="badge" id="acctBadge" style="display:none">●</span></button>
-    <button class="sb-act" onclick="openDrawer('cartDrawer')">Warenkorb <span class="badge" id="cartBadge">0</span></button>
+    <button class="sb-act" onclick="openDrawer('wishDrawer')">Wishlist <span class="badge" id="wishBadge">0</span></button>
+    <button class="sb-act" onclick="openAccount()">Account <span class="badge" id="acctBadge" style="display:none">●</span></button>
+    <button class="sb-act" onclick="openDrawer('cartDrawer')">Cart <span class="badge" id="cartBadge">0</span></button>
   </div>
-  <div class="lang sb-lang"><a class="active">DE</a><a href="en/">EN</a></div>
-  <div class="sb-meta">EST. 2026 · BERLIN<br/>Versand DE/AT/CH<br/>Mo–Sa 10–20 Uhr</div>
+  <div class="lang sb-lang"><a href="../">DE</a><a class="active">EN</a></div>
+  <div class="sb-meta">EST. 2026 · BERLIN<br/>Shipping DE/AT/CH<br/>Mon–Sat 10–20</div>
 </aside>
 
 <!-- mobile top bar -->
 <div class="topbar">
-  <button class="burger" id="burger" aria-label="Menü"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+  <button class="burger" id="burger" aria-label="Menu"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
   <div class="tb-logo">KICK<span class="dot"></span>LAB</div>
   <div class="tb-right">
-    <div class="lang"><a class="active">DE</a><a href="en/">EN</a></div>
-    <button class="tb-btn" onclick="openDrawer('wishDrawer')" aria-label="Wunschliste"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg><span class="badge" id="wishBadgeM">0</span></button>
-    <button class="tb-btn" onclick="openDrawer('cartDrawer')" aria-label="Warenkorb"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg><span class="badge" id="cartBadgeM">0</span></button>
+    <div class="lang"><a href="../">DE</a><a class="active">EN</a></div>
+    <button class="tb-btn" onclick="openDrawer('wishDrawer')" aria-label="Wishlist"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg><span class="badge" id="wishBadgeM">0</span></button>
+    <button class="tb-btn" onclick="openDrawer('cartDrawer')" aria-label="Cart"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg><span class="badge" id="cartBadgeM">0</span></button>
   </div>
 </div>
 
@@ -281,17 +281,17 @@ footer{background:var(--ink);color:var(--paper);padding:56px 0 28px}
   <section class="hero">
     <div class="wrap hero-grid">
       <div>
-        <span class="eyebrow reveal">// Neue Drops jede Woche</span>
-        <h1 class="reveal">Trag,<br/>was dich<br/><em>bewegt.</em></h1>
-        <p class="reveal">Limitierte Sneaker, frische Releases und Streetwear-Essentials. Kuratiert in Berlin, geliefert an deine Tür.</p>
+        <span class="eyebrow reveal">// New drops every week</span>
+        <h1 class="reveal">Wear<br/>what moves<br/><em>you.</em></h1>
+        <p class="reveal">Limited sneakers, fresh releases and streetwear essentials. Curated in Berlin, delivered to your door.</p>
         <div class="hero-cta-row reveal">
-          <button class="btn" onclick="document.getElementById('shop').scrollIntoView()">Jetzt shoppen
+          <button class="btn" onclick="document.getElementById('shop').scrollIntoView()">Shop now
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
         </div>
       </div>
       <div class="hero-img reveal">
         <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&auto=format&fit=crop&w=700" alt="Sneaker" onerror="this.style.display='none'"/>
-        <span class="price-stamp">AB 89,90 €</span>
+        <span class="price-stamp">FROM €89.90</span>
       </div>
     </div>
   </section>
@@ -303,23 +303,23 @@ footer{background:var(--ink);color:var(--paper);padding:56px 0 28px}
   <section class="catalog" id="shop">
     <div class="wrap">
       <div class="cat-head reveal">
-        <h2 id="catTitle">Alle Drops</h2>
+        <h2 id="catTitle">All Drops</h2>
         <span class="count" id="catCount"></span>
       </div>
       <div class="cat-tools reveal">
         <div class="chips" id="chips">
-          <button class="chip active" data-cat="all">Alle</button>
+          <button class="chip active" data-cat="all">All</button>
           <button class="chip" data-cat="Running">Running</button>
           <button class="chip" data-cat="Lifestyle">Lifestyle</button>
           <button class="chip" data-cat="Basketball">Basketball</button>
           <button class="chip" data-cat="Skate">Skate</button>
         </div>
-        <div class="sortwrap">Sortieren:
+        <div class="sortwrap">Sort:
           <select id="sortSel">
-            <option value="pop">Beliebt</option>
-            <option value="new">Neu</option>
-            <option value="asc">Preis ↑</option>
-            <option value="desc">Preis ↓</option>
+            <option value="pop">Popular</option>
+            <option value="new">New</option>
+            <option value="asc">Price ↑</option>
+            <option value="desc">Price ↓</option>
           </select>
         </div>
       </div>
@@ -333,13 +333,13 @@ footer{background:var(--ink);color:var(--paper);padding:56px 0 28px}
       <div class="foot-grid">
         <div>
           <div class="foot-logo">KICK<span class="dot"></span>LAB</div>
-          <p>Dein Sneaker Store für limitierte Drops &amp; Streetwear. Kuratiert in Berlin seit 2026.</p>
+          <p>Your sneaker store for limited drops &amp; streetwear. Curated in Berlin since 2026.</p>
         </div>
         <div><h5>Shop</h5><a onclick="applyFilter('Running')">Running</a><a onclick="applyFilter('Lifestyle')">Lifestyle</a><a onclick="applyFilter('Basketball')">Basketball</a><a onclick="applyFilter('Skate')">Skate</a></div>
-        <div><h5>Service</h5><a>Versand &amp; Retoure</a><a>Größentabelle</a><a>Kontakt</a><a onclick="openAccount()">Mein Konto</a></div>
-        <div><h5>Newsletter</h5><p>10% auf den ersten Drop.</p><a href="mailto:hi@kicklab.shop">hi@kicklab.shop</a></div>
+        <div><h5>Service</h5><a>Shipping &amp; Returns</a><a>Size guide</a><a>Contact</a><a onclick="openAccount()">My account</a></div>
+        <div><h5>Newsletter</h5><p>10% off your first drop.</p><a href="mailto:hi@kicklab.shop">hi@kicklab.shop</a></div>
       </div>
-      <div class="foot-bottom"><span>© 2026 KICKLAB · DEMO-SHOP</span><span>AGB · Datenschutz · Impressum</span></div>
+      <div class="foot-bottom"><span>© 2026 KICKLAB · DEMO SHOP</span><span>Terms · Privacy · Imprint</span></div>
     </div>
   </footer>
 </div>
@@ -349,17 +349,17 @@ footer{background:var(--ink);color:var(--paper);padding:56px 0 28px}
 
 <!-- ===== CART DRAWER ===== -->
 <aside class="drawer" id="cartDrawer">
-  <div class="dr-head"><h3>Warenkorb</h3><button class="dr-close" onclick="closeAll()"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M18 6L6 18M6 6l12 12"/></svg></button></div>
+  <div class="dr-head"><h3>Cart</h3><button class="dr-close" onclick="closeAll()"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M18 6L6 18M6 6l12 12"/></svg></button></div>
   <div class="dr-body" id="cartBody"></div>
   <div class="dr-foot">
-    <div class="cart-total"><span class="l">Summe</span><span class="v" id="cartSum">0,00 €</span></div>
-    <button class="btn btn-lime" id="checkoutBtn" onclick="checkout()">Zur Kasse</button>
+    <div class="cart-total"><span class="l">Total</span><span class="v" id="cartSum">€0.00</span></div>
+    <button class="btn btn-lime" id="checkoutBtn" onclick="checkout()">Checkout</button>
   </div>
 </aside>
 
 <!-- ===== WISHLIST DRAWER ===== -->
 <aside class="drawer" id="wishDrawer">
-  <div class="dr-head"><h3>Wunschliste</h3><button class="dr-close" onclick="closeAll()"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M18 6L6 18M6 6l12 12"/></svg></button></div>
+  <div class="dr-head"><h3>Wishlist</h3><button class="dr-close" onclick="closeAll()"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M18 6L6 18M6 6l12 12"/></svg></button></div>
   <div class="dr-body" id="wishBody"></div>
 </aside>
 
@@ -373,11 +373,11 @@ footer{background:var(--ink);color:var(--paper);padding:56px 0 28px}
         <h3 id="qvName"></h3>
         <div class="p" id="qvPrice"></div>
         <div class="desc" id="qvDesc"></div>
-        <div style="font-family:'Space Mono';font-size:.72rem;text-transform:uppercase;color:var(--gray);margin-bottom:.5rem">Größe wählen</div>
+        <div style="font-family:'Space Mono';font-size:.72rem;text-transform:uppercase;color:var(--gray);margin-bottom:.5rem">Choose size</div>
         <div class="size-row" id="qvSizes"></div>
         <div style="display:flex;gap:0;flex-wrap:wrap">
-          <button class="btn btn-lime" id="qvAdd">In den Warenkorb</button>
-          <button class="btn btn-out" onclick="closeAll()">Schließen</button>
+          <button class="btn btn-lime" id="qvAdd">Add to cart</button>
+          <button class="btn btn-out" onclick="closeAll()">Close</button>
         </div>
       </div>
     </div>
@@ -387,23 +387,23 @@ footer{background:var(--ink);color:var(--paper);padding:56px 0 28px}
 <!-- ===== AUTH MODAL ===== -->
 <div class="modal" id="authModal">
   <div class="modal-box sm">
-    <div class="modal-head"><h3 id="authTitle">Konto</h3><button class="dr-close" onclick="closeAll()"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M18 6L6 18M6 6l12 12"/></svg></button></div>
+    <div class="modal-head"><h3 id="authTitle">Account</h3><button class="dr-close" onclick="closeAll()"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M18 6L6 18M6 6l12 12"/></svg></button></div>
     <div class="tabs2" id="authTabs">
-      <button class="active" data-tab="login">Anmelden</button>
-      <button data-tab="register">Registrieren</button>
+      <button class="active" data-tab="login">Sign in</button>
+      <button data-tab="register">Register</button>
     </div>
     <!-- login -->
     <form class="auth-form" id="loginForm" novalidate>
-      <div class="field"><label>E-Mail</label><input type="email" id="li-email" placeholder="du@mail.de"/><span class="msg">Bitte E-Mail prüfen.</span></div>
-      <div class="field"><label>Passwort</label><input type="password" id="li-pass" placeholder="••••••"/><span class="msg">Falsche Zugangsdaten.</span></div>
-      <button type="submit" class="btn btn-lime">Anmelden</button>
+      <div class="field"><label>Email</label><input type="email" id="li-email" placeholder="you@mail.com"/><span class="msg">Please check your email.</span></div>
+      <div class="field"><label>Password</label><input type="password" id="li-pass" placeholder="••••••"/><span class="msg">Incorrect credentials.</span></div>
+      <button type="submit" class="btn btn-lime">Sign in</button>
     </form>
     <!-- register -->
     <form class="auth-form" id="regForm" style="display:none" novalidate>
-      <div class="field"><label>Name</label><input type="text" id="rg-name" placeholder="Dein Name"/><span class="msg">Bitte Namen eingeben.</span></div>
-      <div class="field"><label>E-Mail</label><input type="email" id="rg-email" placeholder="du@mail.de"/><span class="msg">Bitte gültige E-Mail / bereits vergeben.</span></div>
-      <div class="field"><label>Passwort (min. 6 Zeichen)</label><input type="password" id="rg-pass" placeholder="••••••"/><span class="msg">Mindestens 6 Zeichen.</span></div>
-      <button type="submit" class="btn btn-lime">Konto erstellen</button>
+      <div class="field"><label>Name</label><input type="text" id="rg-name" placeholder="Your name"/><span class="msg">Please enter your name.</span></div>
+      <div class="field"><label>Email</label><input type="email" id="rg-email" placeholder="you@mail.com"/><span class="msg">Valid email required / already taken.</span></div>
+      <div class="field"><label>Password (min. 6 characters)</label><input type="password" id="rg-pass" placeholder="••••••"/><span class="msg">At least 6 characters.</span></div>
+      <button type="submit" class="btn btn-lime">Create account</button>
     </form>
   </div>
 </div>
@@ -411,16 +411,16 @@ footer{background:var(--ink);color:var(--paper);padding:56px 0 28px}
 <!-- ===== ACCOUNT MODAL ===== -->
 <div class="modal" id="acctModal">
   <div class="modal-box sm">
-    <div class="modal-head"><h3 id="acctHi">Mein Konto</h3><button class="dr-close" onclick="closeAll()"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M18 6L6 18M6 6l12 12"/></svg></button></div>
+    <div class="modal-head"><h3 id="acctHi">My account</h3><button class="dr-close" onclick="closeAll()"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M18 6L6 18M6 6l12 12"/></svg></button></div>
     <div class="auth-form">
       <div class="acct-stats">
-        <div class="s"><div class="n" id="stOrders">0</div><div class="l">Bestellungen</div></div>
-        <div class="s"><div class="n" id="stWish">0</div><div class="l">Wunschliste</div></div>
-        <div class="s"><div class="n" id="stCart">0</div><div class="l">Warenkorb</div></div>
+        <div class="s"><div class="n" id="stOrders">0</div><div class="l">Orders</div></div>
+        <div class="s"><div class="n" id="stWish">0</div><div class="l">Wishlist</div></div>
+        <div class="s"><div class="n" id="stCart">0</div><div class="l">Cart</div></div>
       </div>
-      <div style="font-family:'Space Mono';font-size:.72rem;text-transform:uppercase;color:var(--gray);margin-bottom:.6rem">Bestellverlauf</div>
+      <div style="font-family:'Space Mono';font-size:.72rem;text-transform:uppercase;color:var(--gray);margin-bottom:.6rem">Order history</div>
       <div id="orderList"></div>
-      <button class="btn btn-out" style="width:100%;justify-content:center;margin-top:1rem" onclick="logout()">Abmelden</button>
+      <button class="btn btn-out" style="width:100%;justify-content:center;margin-top:1rem" onclick="logout()">Sign out</button>
     </div>
   </div>
 </div>
@@ -430,20 +430,20 @@ footer{background:var(--ink);color:var(--paper);padding:56px 0 28px}
 <script>
 /* ===================== DATA ===================== */
 const PRODUCTS=[
-  {id:'s1',n:'Velocity Runner',brand:'Aerolite',price:139.90,cat:'Running',pop:9,new:0,img:'1542291026-7eec264c27ff',desc:'Leichter Performance-Runner mit reaktiver Dämpfung für jeden Kilometer.'},
-  {id:'s2',n:"Court Classic '82",brand:'Heritage',price:109.90,cat:'Lifestyle',pop:8,new:0,img:'1595950653106-6c9ebd614d3a',desc:'Zeitloser Court-Look aus Premium-Leder – passt zu allem.'},
-  {id:'s3',n:'Skyline Hi',brand:'Apex',price:159.90,cat:'Basketball',pop:7,new:1,img:'1556906781-9a412961c28c',desc:'High-Top mit maximalem Grip und Knöchel-Support fürs Parkett.'},
-  {id:'s4',n:'Drift Skate',brand:'Grindset',price:89.90,cat:'Skate',pop:6,new:0,img:'1525966222134-fcfa99b8ae77',desc:'Robuste Vulc-Sohle und verstärkte Ollie-Zone für lange Sessions.'},
-  {id:'s5',n:'Cloud Glide',brand:'Aerolite',price:149.90,cat:'Running',pop:8,new:1,img:'1608231387042-66d1773070a5',desc:'Wolkenweiche Dämpfung für den entspannten Daily Run.'},
-  {id:'s6',n:'Retro Wave',brand:'Heritage',price:119.90,cat:'Lifestyle',pop:7,new:0,img:'1539185441755-769473a23570',desc:'80s-Vibes in frischen Farben – der Statement-Sneaker.'},
-  {id:'s7',n:'Dunk Force',brand:'Apex',price:169.90,cat:'Basketball',pop:9,new:0,img:'1600185365926-3a2ce3cdb9eb',desc:'Explosive Sprungkraft trifft auf Street-tauglichen Style.'},
-  {id:'s8',n:'Street Deck',brand:'Grindset',price:94.90,cat:'Skate',pop:5,new:1,img:'1514989940723-e8e51635b782',desc:'Flaches Profil, viel Boardfeel – gemacht zum Cruisen.'},
-  {id:'s9',n:'Trail Beast',brand:'Aerolite',price:134.90,old:159.90,cat:'Running',pop:6,new:0,sale:1,img:'1551107696-a4b0c5a0d9a2',desc:'Grobstollige Sohle für Trails und jedes Wetter.'},
-  {id:'s10',n:'Mono Low',brand:'Heritage',price:99.90,cat:'Lifestyle',pop:8,new:1,img:'1606107557195-0e29a4b5b4aa',desc:'Minimalistischer Low-Top in cleanem Mono-Design.'},
+  {id:'s1',n:'Velocity Runner',brand:'Aerolite',price:139.90,cat:'Running',pop:9,new:0,img:'1542291026-7eec264c27ff',desc:'Lightweight performance runner with responsive cushioning for every mile.'},
+  {id:'s2',n:"Court Classic '82",brand:'Heritage',price:109.90,cat:'Lifestyle',pop:8,new:0,img:'1595950653106-6c9ebd614d3a',desc:'Timeless court look in premium leather – goes with everything.'},
+  {id:'s3',n:'Skyline Hi',brand:'Apex',price:159.90,cat:'Basketball',pop:7,new:1,img:'1556906781-9a412961c28c',desc:'High-top with maximum grip and ankle support for the court.'},
+  {id:'s4',n:'Drift Skate',brand:'Grindset',price:89.90,cat:'Skate',pop:6,new:0,img:'1525966222134-fcfa99b8ae77',desc:'Tough vulc sole and reinforced ollie zone for long sessions.'},
+  {id:'s5',n:'Cloud Glide',brand:'Aerolite',price:149.90,cat:'Running',pop:8,new:1,img:'1608231387042-66d1773070a5',desc:'Cloud-soft cushioning for an easy daily run.'},
+  {id:'s6',n:'Retro Wave',brand:'Heritage',price:119.90,cat:'Lifestyle',pop:7,new:0,img:'1539185441755-769473a23570',desc:'80s vibes in fresh colours – the statement sneaker.'},
+  {id:'s7',n:'Dunk Force',brand:'Apex',price:169.90,cat:'Basketball',pop:9,new:0,img:'1600185365926-3a2ce3cdb9eb',desc:'Explosive bounce meets street-ready style.'},
+  {id:'s8',n:'Street Deck',brand:'Grindset',price:94.90,cat:'Skate',pop:5,new:1,img:'1514989940723-e8e51635b782',desc:'Low profile, lots of board feel – made for cruising.'},
+  {id:'s9',n:'Trail Beast',brand:'Aerolite',price:134.90,old:159.90,cat:'Running',pop:6,new:0,sale:1,img:'1551107696-a4b0c5a0d9a2',desc:'Aggressive lugged sole for trails and any weather.'},
+  {id:'s10',n:'Mono Low',brand:'Heritage',price:99.90,cat:'Lifestyle',pop:8,new:1,img:'1606107557195-0e29a4b5b4aa',desc:'Minimalist low-top in a clean mono design.'},
 ];
 const SIZES=['40','41','42','43','44','45'];
 const IMG=(id,w)=>`https://images.unsplash.com/photo-${id}?q=80&auto=format&fit=crop&w=${w||520}&h=${w||520}`;
-const euro=n=>n.toFixed(2).replace('.',',')+' €';
+const euro=n=>'€'+n.toFixed(2);
 
 /* ===================== STATE (localStorage) ===================== */
 const LS={get:(k,d)=>{try{return JSON.parse(localStorage.getItem(k))??d}catch(e){return d}},set:(k,v)=>localStorage.setItem(k,JSON.stringify(v))};
@@ -453,7 +453,7 @@ let session=LS.get('kicklab_session',null);
 let filter='all', sort='pop';
 
 /* ===================== MARQUEE ===================== */
-document.getElementById('marq').innerHTML=('<span>Free Shipping ab 99 €</span><span>Neue Drops jede Woche</span><span>30 Tage Rückgabe</span><span>Limited Editions</span>').repeat(2);
+document.getElementById('marq').innerHTML=('<span>Free shipping over €99</span><span>New drops every week</span><span>30-day returns</span><span>Limited editions</span>').repeat(2);
 
 /* ===================== RENDER CATALOG ===================== */
 const grid=document.getElementById('grid');
@@ -468,12 +468,12 @@ function getList(){
 }
 function renderGrid(){
   const list=getList();
-  document.getElementById('catCount').textContent=list.length+' Modelle';
-  if(!list.length){grid.innerHTML='<div class="empty-cat">Keine Produkte in dieser Kategorie.</div>';return;}
+  document.getElementById('catCount').textContent=list.length+' styles';
+  if(!list.length){grid.innerHTML='<div class="empty-cat">No products in this category.</div>';return;}
   grid.innerHTML=list.map(p=>`
     <article class="card">
-      ${p.sale?'<span class="card-badge sale">Sale</span>':(p.new?'<span class="card-badge">Neu</span>':'')}
-      <button class="fav ${wish.includes(p.id)?'on':''}" onclick="toggleWish('${p.id}')" aria-label="Merken">${heart()}</button>
+      ${p.sale?'<span class="card-badge sale">Sale</span>':(p.new?'<span class="card-badge">New</span>':'')}
+      <button class="fav ${wish.includes(p.id)?'on':''}" onclick="toggleWish('${p.id}')" aria-label="Save">${heart()}</button>
       <div class="card-img" onclick="openQuick('${p.id}')">
         <img src="${IMG(p.img)}" alt="${p.n}" loading="lazy" onerror="this.style.display='none'"/>
         <button class="btn btn-lime btn-sm quickbtn" onclick="event.stopPropagation();openQuick('${p.id}')">Quick View</button>
@@ -483,7 +483,7 @@ function renderGrid(){
         <div class="card-name">${p.n}</div>
         <div class="card-foot">
           <div class="card-price">${p.old?`<s>${euro(p.old)}</s>`:''}${euro(p.price)}</div>
-          <button class="addbtn" onclick="addToCart('${p.id}')" aria-label="In den Warenkorb"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button>
+          <button class="addbtn" onclick="addToCart('${p.id}')" aria-label="Add to cart"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button>
         </div>
       </div>
     </article>`).join('');
@@ -495,7 +495,7 @@ function applyFilter(cat){
   filter=cat;
   document.querySelectorAll('#chips .chip').forEach(c=>c.classList.toggle('active',c.dataset.cat===cat));
   document.querySelectorAll('#sbNav button').forEach(b=>b.classList.toggle('active',b.dataset.cat===cat));
-  document.getElementById('catTitle').textContent=cat==='all'?'Alle Drops':cat;
+  document.getElementById('catTitle').textContent=cat==='all'?'All Drops':cat;
   renderGrid();
   document.getElementById('shop').scrollIntoView({behavior:'smooth'});
   closeSidebar();
@@ -506,7 +506,7 @@ document.getElementById('sortSel').addEventListener('change',e=>{sort=e.target.v
 
 /* ===================== CART ===================== */
 function find(id){return PRODUCTS.find(p=>p.id===id);}
-function addToCart(id,qty){cart[id]=(cart[id]||0)+(qty||1);saveCart();toast(find(id).n+' hinzugefügt');bump('cartBadge');}
+function addToCart(id,qty){cart[id]=(cart[id]||0)+(qty||1);saveCart();toast(find(id).n+' added');bump('cartBadge');}
 function removeCart(id){delete cart[id];saveCart();}
 function changeQty(id,d){cart[id]=(cart[id]||0)+d;if(cart[id]<=0)delete cart[id];saveCart();}
 function saveCart(){LS.set('kicklab_cart',cart);renderBadges();renderCart();}
@@ -515,41 +515,41 @@ function cartTotal(){return Object.entries(cart).reduce((s,[id,q])=>s+find(id).p
 function renderCart(){
   const body=document.getElementById('cartBody'),ids=Object.keys(cart);
   document.getElementById('cartSum').textContent=euro(cartTotal());
-  if(!ids.length){body.innerHTML='<div class="dr-empty"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>Dein Warenkorb ist leer.</div>';return;}
+  if(!ids.length){body.innerHTML='<div class="dr-empty"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>Your cart is empty.</div>';return;}
   body.innerHTML=ids.map(id=>{const p=find(id);return `
     <div class="li">
       <img src="${IMG(p.img,160)}" alt="${p.n}" onerror="this.style.visibility='hidden'"/>
       <div class="li-info"><div class="li-brand">${p.brand}</div><div class="li-name">${p.n}</div><div class="li-price">${euro(p.price)}</div>
-        <button class="li-x" onclick="removeCart('${id}')">Entfernen</button></div>
+        <button class="li-x" onclick="removeCart('${id}')">Remove</button></div>
       <div class="stepper"><button onclick="changeQty('${id}',-1)">−</button><span class="qv">${cart[id]}</span><button onclick="changeQty('${id}',1)">+</button></div>
     </div>`;}).join('');
 }
 function checkout(){
-  if(!cartCount()){toast('Warenkorb ist leer');return;}
+  if(!cartCount()){toast('Cart is empty');return;}
   const total=cartTotal(),items=cartCount();
   if(session){
     const orders=LS.get('kicklab_orders_'+session.email,[]);
-    orders.unshift({date:new Date().toLocaleDateString('de-DE'),items,total});
+    orders.unshift({date:new Date().toLocaleDateString('en-GB'),items,total});
     LS.set('kicklab_orders_'+session.email,orders);
   }
   cart={};saveCart();closeAll();
-  toast(session?'Bestellung im Konto gespeichert ✓':'Bestellung erfolgreich ✓');
+  toast(session?'Order saved to account ✓':'Order placed ✓');
 }
 
 /* ===================== WISHLIST ===================== */
 function toggleWish(id){
   const i=wish.indexOf(id);
-  if(i>-1)wish.splice(i,1);else{wish.push(id);toast(find(id).n+' gemerkt');bump('wishBadge');}
+  if(i>-1)wish.splice(i,1);else{wish.push(id);toast(find(id).n+' saved');bump('wishBadge');}
   LS.set('kicklab_wish',wish);renderBadges();renderGrid();renderWish();
 }
 function renderWish(){
   const body=document.getElementById('wishBody');
-  if(!wish.length){body.innerHTML='<div class="dr-empty"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg>Noch nichts gemerkt.</div>';return;}
+  if(!wish.length){body.innerHTML='<div class="dr-empty"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg>Nothing saved yet.</div>';return;}
   body.innerHTML=wish.map(id=>{const p=find(id);return `
     <div class="li">
       <img src="${IMG(p.img,160)}" alt="${p.n}" onerror="this.style.visibility='hidden'"/>
       <div class="li-info"><div class="li-brand">${p.brand}</div><div class="li-name">${p.n}</div><div class="li-price">${euro(p.price)}</div>
-        <button class="li-x" onclick="toggleWish('${id}')">Entfernen</button></div>
+        <button class="li-x" onclick="toggleWish('${id}')">Remove</button></div>
       <button class="btn btn-sm btn-lime" onclick="addToCart('${id}')">+ Cart</button>
     </div>`;}).join('');
 }
@@ -565,7 +565,7 @@ function openQuick(id){
   document.getElementById('qvDesc').textContent=p.desc;
   document.getElementById('qvSizes').innerHTML=SIZES.map(s=>`<button class="size" data-s="${s}">${s}</button>`).join('');
   document.querySelectorAll('#qvSizes .size').forEach(b=>b.onclick=()=>{document.querySelectorAll('#qvSizes .size').forEach(x=>x.classList.remove('active'));b.classList.add('active');qvSize=b.dataset.s;});
-  document.getElementById('qvAdd').onclick=()=>{if(!qvSize){toast('Bitte Größe wählen');return;}addToCart(id);closeAll();openDrawer('cartDrawer');};
+  document.getElementById('qvAdd').onclick=()=>{if(!qvSize){toast('Please choose a size');return;}addToCart(id);closeAll();openDrawer('cartDrawer');};
   openModal('qvModal');
 }
 
@@ -577,7 +577,7 @@ document.getElementById('authTabs').addEventListener('click',e=>{
   const login=e.target.dataset.tab==='login';
   document.getElementById('loginForm').style.display=login?'block':'none';
   document.getElementById('regForm').style.display=login?'none':'block';
-  document.getElementById('authTitle').textContent=login?'Anmelden':'Registrieren';
+  document.getElementById('authTitle').textContent=login?'Sign in':'Register';
 });
 function fieldErr(id,on){document.getElementById(id).closest('.field').classList.toggle('err',on);}
 document.getElementById('regForm').addEventListener('submit',e=>{
@@ -594,7 +594,7 @@ document.getElementById('regForm').addEventListener('submit',e=>{
   if(!ok)return;
   users.push({name,email,pass});LS.set('kicklab_users',users);
   session={name,email};LS.set('kicklab_session',session);
-  closeAll();renderBadges();toast('Willkommen, '+name+'!');
+  closeAll();renderBadges();toast('Welcome, '+name+'!');
 });
 document.getElementById('loginForm').addEventListener('submit',e=>{
   e.preventDefault();
@@ -607,7 +607,7 @@ document.getElementById('loginForm').addEventListener('submit',e=>{
   session={name:u.name,email:u.email};LS.set('kicklab_session',session);
   closeAll();renderBadges();toast('Hi, '+u.name+'!');
 });
-function logout(){session=null;localStorage.removeItem('kicklab_session');closeAll();renderBadges();toast('Abgemeldet');}
+function logout(){session=null;localStorage.removeItem('kicklab_session');closeAll();renderBadges();toast('Signed out');}
 function renderAccount(){
   if(!session)return;
   document.getElementById('acctHi').textContent='Hi, '+session.name;
@@ -616,7 +616,7 @@ function renderAccount(){
   document.getElementById('stWish').textContent=wish.length;
   document.getElementById('stCart').textContent=cartCount();
   const ol=document.getElementById('orderList');
-  ol.innerHTML=orders.length?orders.map(o=>`<div class="order"><div class="o-top"><span>${o.date}</span><span>${o.items} Artikel</span></div><div class="o-items">Bestellung bestätigt</div><div class="o-total">${euro(o.total)}</div></div>`).join(''):'<div style="font-family:\'Space Mono\';font-size:.8rem;color:var(--gray)">Noch keine Bestellungen.</div>';
+  ol.innerHTML=orders.length?orders.map(o=>`<div class="order"><div class="o-top"><span>${o.date}</span><span>${o.items} items</span></div><div class="o-items">Order confirmed</div><div class="o-total">${euro(o.total)}</div></div>`).join(''):'<div style="font-family:\'Space Mono\';font-size:.8rem;color:var(--gray)">No orders yet.</div>';
 }
 
 /* ===================== BADGES ===================== */
